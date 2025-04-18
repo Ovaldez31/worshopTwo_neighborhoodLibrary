@@ -1,11 +1,19 @@
 package com.ps;
 
-import java.util.Scanner;
-
 public class Book {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    private int bookId;
+    private String bookIsbn;
+    private String bookTitle;
+    private boolean isCheckedOut;
+    private String checkedOutTo;
 
-        int checkedOut
+
+    public Book(int bookId, String bookIsbn, String bookTitle) {
+
+        this.bookId = bookId;
+        this.bookIsbn = bookIsbn;
+        this.bookTitle = bookTitle;
+        this.isCheckedOut = false;
+        this.checkedOutTo = " ";
     }
 }
