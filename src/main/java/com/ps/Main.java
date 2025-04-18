@@ -6,11 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-    private int bookId;
-    private String bookIsbn;
-    private String bookTitle;
-    private boolean isCheckedOut;
-    private String checkedOutTo;
+
 
 
 
