@@ -7,6 +7,12 @@ public class Book {
     private boolean isCheckedOut;
     private String checkedOutTo;
 
+public boolean isCheckedOut() {
+    return isCheckedOut;
+}
+public String getCheckedOutTo(){
+    return checkedOutTo;
+}
 
     public Book(int bookId, String bookIsbn, String bookTitle) {
 
@@ -42,4 +48,7 @@ public class Book {
 
 
 
-}
+
+
+
+

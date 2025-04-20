@@ -1,7 +1,7 @@
 package com.ps;
 
 import java.util.ArrayList;
-
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,7 +31,31 @@ public class Main {
 
 
 
-        inventory.get(0).checkout("Hannah");
+        inventory.get(3).checkout("Hannah");
+
+
+
+
+        Scanner scanner = new Scanner(System.in);
+        boolean displayBooks = true;
+
+        while (displayBooks) {
+            System.out.println("Checked Out Book(s):");
+
+            for(Book book :inventory) {
+                if (book.isCheckedOut()) {
+                    System.out.println("ID: " + book.);
+
+                }
+            }
+        }
+
+
+
+
+
+
+
 
 
 
