@@ -40,7 +40,23 @@ public class Main {
         boolean displayBooks = true;
 
         while (displayBooks) {
-            System.out.println("Checked Out Book(s):");
+            System.out.println("\n--- Neighborhood Library ---");
+            System.out.println("A: Show Available Books");
+            System.out.println("B: Show Checked Out Book(s):");
+
+            System.out.println("Enter your choice: ");
+
+
+
+
+
+
+
+
+
+
+
+
 
             for(Book book :inventory) {
                 if (book.isCheckedOut()) {
